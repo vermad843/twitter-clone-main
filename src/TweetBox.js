@@ -1,11 +1,20 @@
 import React from 'react';
+import './TweetBox.css';
+import { Avatar, Button} from '@material-ui/core';
 
 function TweetBox() {
     return (
         <div className = "tweetBox">
-            <h1>I am a TweetBox</h1>
+            <form>
+                <div className = "tweetBox__input">
+                    <Avatar
+                       src = "https://avatars.githubusercontent.com/u/51009293?s=60&v=4"
+                    />
+                </div>
+                <Button>Tweet</Button>
+            </form>
         </div>
-    )
+    );
 }
 
 export default TweetBox;
