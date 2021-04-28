@@ -10,6 +10,10 @@ function TweetBox() {
                     <Avatar
                        src = "https://avatars.githubusercontent.com/u/51009293?s=60&v=4"
                     />
+                    <input
+                       placeholder = "What's happening?"
+                       type = "text"
+                     />
                 </div>
                 <Button>Tweet</Button>
             </form>
