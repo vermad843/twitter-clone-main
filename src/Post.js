@@ -2,7 +2,10 @@ import { Avatar } from '@material-ui/core';
 import React from 'react';
 import './Post.css';
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser'
-
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutlineOutlined';
+import RepeatIcon from '@material-ui/icons/Repeat';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import PublishIcon from '@material-ui/icons/Publish';
 
 function Post({
     displayName,
@@ -42,6 +45,12 @@ function Post({
                    frameBorder="0" 
                    allowFullScreen>
                 </iframe>
+                <div className = "post__footer">
+                    <ChatBubbleOutlineIcon fontSize = "small"/>
+                    <RepeatIcon fontSize = "small"/>
+                    <FavoriteBorderIcon fontSize = "small"/>
+                    <PublishIcon fontSize = "small"/>
+                </div>
             </div>
         </div>
     );
