@@ -15,7 +15,10 @@ function TweetBox() {
                        type = "text"
                      />
                 </div>
-                <Button>Tweet</Button>
+                <Button
+                  className = "tweetBox__tweetButton"
+                  >Tweet
+                </Button>
             </form>
         </div>
     );
